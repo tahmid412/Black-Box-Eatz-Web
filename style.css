@@ -20,7 +20,7 @@ h1 { font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1; margin-bottom: 22px; }
 .section { padding: 60px 8%; text-align: center; }
 .section h2 { color: #ffb347; font-size: 2rem; margin-bottom: 12px; }
 .section p { max-width: 800px; margin: auto; color: #f8dec2; }
-.cards, .menu-grid, .gallery-grid { padding: 30px 8% 70px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.cards, .menu-grid { padding: 30px 8% 70px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .cards article, .menu-item, .photo { background: #21140f; border: 1px solid rgba(255,255,255,.1); border-radius: 22px; padding: 25px; }
 .cards h3, .menu-item h3 { color: #ffb347; margin-bottom: 10px; }
 .page { padding: 55px 8%; min-height: 78vh; }
@@ -28,7 +28,6 @@ h1 { font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1; margin-bottom: 22px; }
 .page-subtitle { color: #f8dec2; margin-bottom: 30px; font-size: 1.1rem; }
 .narrow { max-width: 900px; margin: auto; }
 .menu-item span { display: inline-block; margin-top: 14px; color: #ff7a1a; font-weight: 900; font-size: 1.2rem; }
-.photo { min-height: 180px; display: flex; align-items: end; font-size: 1.3rem; font-weight: 900; color: #130f0d; background: linear-gradient(135deg, #ffb347, #ff7a1a); }
 .contact-form { margin-top: 28px; display: grid; gap: 14px; }
 input, textarea { width: 100%; padding: 14px; border-radius: 14px; border: none; font: inherit; }
 textarea { min-height: 140px; }
