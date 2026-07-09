@@ -50,6 +50,7 @@ footer { text-align: center; padding: 25px; background: #0b0807; color: #d9b894;
     border-radius:15px;
     overflow:hidden;
     text-align:center;
+    padding:15px;
 }
 
 .photo img{
@@ -57,10 +58,12 @@ footer { text-align: center; padding: 25px; background: #0b0807; color: #d9b894;
     height:250px;
     object-fit:cover;
     display:block;
+    border-radius:10px;
 }
 
 .photo p{
-    padding:15px;
+    margin-top:15px;
     color:white;
+    font-size:20px;
     font-weight:bold;
 }
